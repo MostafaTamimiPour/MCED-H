@@ -80,8 +80,8 @@ The repository includes implementations of the following scheduling algorithms f
 |-----------|-------------|
 | **EDF** | Earliest Deadline First scheduling. |
 | **EDF-VD** | Earliest Deadline First with Virtual Deadlines for mixed-criticality systems. |
-| **EDH** | Energy-Driven Heuristic scheduling algorithm. |
-| **MCQPA** | Mixed-Criticality Queue-based Priority Assignment scheduling algorithm. |
+| **EDH** | Energy harvesting scheduling algorithm based on the EDF policy. |
+| **MCQPA** | Mixed-criticality scheduling algorithm that performs schedulability analysis before task execution. |
 | **MCED-H** | Proposed scheduling algorithm developed in this research for energy harvesting mixed-criticality real-time systems. |
 
 Among these algorithms, **MCED-H** is the scheduling algorithm proposed as part of this research, while the remaining algorithms are implemented as baseline methods for performance comparison.
